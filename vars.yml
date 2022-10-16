@@ -1,0 +1,6 @@
+uuid: "e95f4703-117d-5d38-97f2-df7758f30903" # "{{ 1000 | random | to_uuid | lower }}"
+port: "443"
+v2ray_config_path: "/home/{{ ansible_distribution.lower() }}/v2ray"
+
+internal_node_domain: example.ha.com #or IP address.
+external_node_domain: example.v2ray.com #or IP address.
